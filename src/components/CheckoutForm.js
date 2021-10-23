@@ -25,7 +25,7 @@ export default function CheckoutForm() {
       const { id } = paymentMethod
       try {
         const data = await axios.post(
-          'https://virgonaturalcreations-test.vercel.app/api/checkout' ||
+          'https://learning_serverless.vercel.app/api/checkout' ||
             'http://localhost:4000/api/checkout',
 
           {

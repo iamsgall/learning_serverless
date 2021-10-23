@@ -20,9 +20,7 @@ app.use(
 app.use(morgan('dev'))
 app.use(
   cors({
-    origin:
-      'https://virgonaturalcreations-test.vercel.app' ||
-      'http://localhost:3000',
+    origin: 'https://learning_serverless.vercel.app' || 'http://localhost:3000',
   })
 )
 
