@@ -25,6 +25,10 @@ app.use(
 )
 
 // Routes
+app.get('/api/test', async (req, res) => {
+  res.send('work')
+})
+
 app.post('/api/checkout', async (req, res) => {
   const { id, amount } = req.body
 
